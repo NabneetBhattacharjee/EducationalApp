@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NabneetEduApp</string>
+    <string name="time">TIME:</string>
+
+    <string name="username">Username:</string>
+    <string name="enter_a_name">Enter a name</string>
+    <string name="play">PLAY</string>
+    <string name="todo">TODO</string>
+    <string name="level_completed">Level Completed!</string>
+    <string name="name">Name:</string>
+    <string name="completed_in">Completed in:</string>
+    <string name="score">SCORE:</string>
+    <string name="header_row">Header row</string>
+    <string name="level_1_select_image">Level 1: Select image</string>
+    <string name="level_2_select_image">Level 2: Select image</string>
+    <string name="level_3_select_image">Level 3: Select image</string>
+    <string name="scores">Scores</string>
+</resources>

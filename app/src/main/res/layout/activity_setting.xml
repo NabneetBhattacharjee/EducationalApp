@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <TextView
+        android:id="@+id/level_1_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/level_1_select_image"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/pic1_1"
+        android:layout_width="96dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/pic1_1"
+        android:onClick="picClicked"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/pic1_2"
+        android:layout_width="96dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/pic1_2"
+        android:onClick="picClicked"
+        app:layout_constraintEnd_toStartOf="@+id/pic1_3"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toEndOf="@+id/pic1_1"
+        app:layout_constraintTop_toBottomOf="@+id/level_1_view" />
+
+    <android.widget.Button
+        android:id="@+id/pic1_3"
+        android:layout_width="96dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/pic1_3"
+        android:onClick="picClicked"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/level_2_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/level_2_select_image"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic1_2" />
+
+    <android.widget.Button
+        android:id="@+id/pic2_1"
+        android:layout_width="96dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/pic2_1"
+        android:onClick="picClicked"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic1_1" />
+
+    <android.widget.Button
+        android:id="@+id/pic2_2"
+        android:layout_width="96dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/pic2_2"
+        android:onClick="picClicked"
+        app:layout_constraintEnd_toStartOf="@+id/pic2_3"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/pic2_1"
+        app:layout_constraintTop_toBottomOf="@+id/level_2_view" />
+
+    <android.widget.Button
+        android:id="@+id/pic2_3"
+        android:layout_width="96dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/pic2_3"
+        android:onClick="picClicked"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic1_3" />
+
+    <TextView
+        android:id="@+id/level_3_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/level_3_select_image"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic2_2" />
+
+    <android.widget.Button
+        android:id="@+id/pic3_1"
+        android:layout_width="96dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/pic3_1"
+        android:onClick="picClicked"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic2_1" />
+
+    <android.widget.Button
+        android:id="@+id/pic3_2"
+        android:layout_width="96dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/pic3_2"
+        android:onClick="picClicked"
+        app:layout_constraintEnd_toStartOf="@+id/pic3_3"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toEndOf="@+id/pic3_1"
+        app:layout_constraintTop_toBottomOf="@+id/level_3_view" />
+
+    <android.widget.Button
+        android:id="@+id/pic3_3"
+        android:layout_width="96dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/pic3_3"
+        android:onClick="picClicked"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic2_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
